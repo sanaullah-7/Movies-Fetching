@@ -1,0 +1,24 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #1a2c3c;
+}
+h1{
+    animation: 2s blink ease-in infinite;
+    font-size: 50px;
+    color: rgb(201, 11, 11);
+}
+@keyframes  blink{
+
+50%{
+color: greenyellow;
+
+}
+}
+/* Media Querry */
+@media(max-width: 500px)
+{
+h1{
+font-size: 20px;
+}
+}
